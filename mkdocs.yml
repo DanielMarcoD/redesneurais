@@ -3,6 +3,8 @@ site_author: Daniel Marco Djanikian
 site_url: https://danielmarcod.github.io/redesneurais/
 repo_url: https://github.com/DanielMarcoD/redesneurais
 repo_name: DanielMarcoD/redesneurais
+exclude_docs: |
+  **/__pycache__/**
 
 theme:
   name: material

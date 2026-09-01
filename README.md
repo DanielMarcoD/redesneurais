@@ -1,44 +1,32 @@
-## Setup
+# Redes Neurais
 
-Para utilizar o código deste repositório, siga as instruções a seguir:
+Portfólio da disciplina de Redes Neurais.
 
-Crie um ambiente virtual do Python:
+## Atividade 1 — Dados
 
-``` shell
-python3 -m venv env
-```
+1. Baixe `train.csv` da competição [Spaceship Titanic](https://www.kaggle.com/competitions/spaceship-titanic/data).
+2. Salve o arquivo em `data/spaceship-titanic/train.csv`.
+3. Crie e ative o ambiente virtual:
 
-Ative o ambiente virtual (**você deve fazer isso sempre que for executar algum script deste repositório**):
+   ```bash
+   python3 -m venv env
+   source env/bin/activate
+   python3 -m pip install --upgrade pip
+   python3 -m pip install -r requirements.txt
+   ```
 
-``` shell
-source ./env/bin/activate
-```
+4. Gere números e figuras:
 
-Instale as dependências com:
+   ```bash
+   python3 docs/exercises/data/code/data_exercise.py
+   ```
 
-``` shell
-python3 -m pip install -r requirements.txt --upgrade
-```
+5. Valide e visualize o site:
 
-## Deployment
+   ```bash
+   mkdocs build --strict
+   mkdocs serve
+   ```
 
-O material utiliza o [mkdocs](https://www.mkdocs.org/) para gerar a documentação. Para visualizar a documentação, execute o comando:
-
-``` shell
-mkdocs serve -o
-```
-
-Para subir ao GitHub Pages, execute o comando:
-
-``` shell
-mkdocs gh-deploy
-```
-
-
-## Notebooks
-
-Para subir notebooks no mkdocs, podemos utilizar a biblioteca do [mkdocs-jupyter](https://github.com/danielfrg/mkdocs-jupyter).
-
-Instalação, utilização e exemplos podem ser vistos na [documentação oficial](https://github.com/danielfrg/mkdocs-jupyter).
-
-O arquivo `mkdocs.yml` tem anotações nos nós modificados de exemplo.
+O arquivo bruto do Kaggle não deve ser enviado ao repositório. O script usa apenas
+`train.csv`; `test.csv` e `sample_submission.csv` não fazem parte da atividade.

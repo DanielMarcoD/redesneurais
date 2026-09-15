@@ -39,3 +39,5 @@ nav:
   - Início: index.md
   - Exercícios:
       - Dados: exercises/data/index.md
+  - Projects:
+      - EDA: https://danielmarcod.github.io/redesneurais/project/eda

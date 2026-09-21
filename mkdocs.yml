@@ -39,5 +39,6 @@ nav:
   - Início: index.md
   - Exercícios:
       - Dados: exercises/data/index.md
+      - Perceptron: exercises/perceptron/index.md
   - Projects:
       - EDA: project/eda/index.md

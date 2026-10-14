@@ -41,4 +41,4 @@ nav:
       - Dados: exercises/data/index.md
       - Perceptron: exercises/perceptron/index.md
   - Projects:
-      - EDA: project/eda/index.md
+      - EDA: projects/eda/index.md

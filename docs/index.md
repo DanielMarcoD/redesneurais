@@ -9,3 +9,4 @@ relatórios, códigos e figuras necessários para reproduzir cada atividade.
 
 - [Atividade 1 — Dados](exercises/data/index.md)
 - [Atividade 2 — Perceptron](exercises/perceptron/index.md)
+- [Projeto — EDA Online Shoppers](projects/eda/index.md)

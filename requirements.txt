@@ -4,3 +4,8 @@ matplotlib==3.11.1
 scikit-learn==1.9.0
 mkdocs-material==9.7.7
 umap-learn==0.5.12
+# Prefer lightweight CPU wheels; the script also supports CUDA installations.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.10.0
+torchvision==0.25.0
+scipy==1.18.1

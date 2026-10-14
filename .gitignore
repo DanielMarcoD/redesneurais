@@ -8,3 +8,4 @@ __pycache__/
 *.py[cod]
 data/spaceship-titanic/*.csv
 data/spaceship-titanic/*.zip
+data/MNIST/

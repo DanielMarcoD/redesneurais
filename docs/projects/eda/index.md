@@ -6,7 +6,7 @@ team:
   - Daniel Marco Djanikian
   - Stefano Metne Lindenbojm
   - Felipe Frug Mauro
-ai_use: "OpenAI Codex para apoio no planejamento, implementação em Python, geração de figuras, redação e revisão das análises e verificações técnicas."
+ai_use: "OpenAI Codex para apoio na implementação, validação e documentação."
 ---
 
 # EDA — Online Shoppers Purchasing Intention

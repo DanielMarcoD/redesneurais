@@ -1,6 +1,6 @@
 ---
 exercise: perceptron
-ai_use: "OpenAI Codex para apoio no planejamento, implementação, visualizações e revisão da análise."
+ai_use: "OpenAI Codex para apoio na implementação, validação e documentação."
 ---
 
 # Atividade 2 — Perceptron

@@ -1,6 +1,6 @@
 ---
 exercise: mlp
-ai_use: "OpenAI Codex (OpenAI) para elaborar a resolução matemática, implementar e revisar o código NumPy, executar os experimentos, gerar as figuras e redigir as análises deste relatório. Os resultados numéricos foram obtidos por execução local real."
+ai_use: "OpenAI Codex para apoio na implementação, validação e documentação."
 ---
 
 # Atividade 3 — Multi-Layer Perceptron

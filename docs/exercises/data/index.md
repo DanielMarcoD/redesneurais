@@ -1,6 +1,6 @@
 ---
 exercise: data
-ai_use: "OpenAI Codex para apoio na implementação, visualizações e revisão da análise."
+ai_use: "OpenAI Codex para apoio na implementação, validação e documentação."
 ---
 
 # Atividade 1 — Dados

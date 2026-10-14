@@ -5,11 +5,6 @@ ai_use: "OpenAI Codex para apoio na implementação, validação e documentaçã
 
 # Atividade 4 — Variational Autoencoders
 
-**Aluno:** Daniel Marco Djanikian. Artificial Neural Networks and Deep Learning,
-Insper, **2026.2**.
-
-Referências: [enunciado e rubrica de 2026.2](https://insper.github.io/ann-dl/2026.2/exercises/vae/)
-e [regras de submissão](https://insper.github.io/ann-dl/2026.2/exercises/submission/).
 Foram executados exatamente dois modelos totalmente conectados, com o protocolo
 fixo da atividade. Os rótulos dos dígitos não entram no treinamento.
 

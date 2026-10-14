@@ -5,11 +5,6 @@ ai_use: "OpenAI Codex para apoio na implementação, validação e documentaçã
 
 # Atividade 3 — Multi-Layer Perceptron
 
-**Aluno:** Daniel Marco Djanikian. Disciplina: Artificial Neural Networks and
-Deep Learning, Insper, 2026.2.
-
-Referências: [enunciado e rubrica oficiais](https://insper.github.io/ann-dl/2026.2/exercises/mlp/)
-e [formato de submissão](https://insper.github.io/ann-dl/2026.2/exercises/submission/).
 As contas do Exercise 1 são desenvolvidas abaixo; NumPy serve para conferência.
 Nos demais exercícios, uma única MLP implementa manualmente as ativações,
 losses, forward, backward e atualização dos parâmetros.

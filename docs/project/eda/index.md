@@ -20,7 +20,7 @@ estimamos desempenho preditivo.
 
 
 ```bash
-python docs/projects/eda/code/eda.py > /tmp/eda-resultados.md
+python docs/project/eda/code/eda.py > /tmp/eda-resultados.md
 mkdocs build --strict
 ```
 
@@ -821,7 +821,7 @@ figuras. O bloco abaixo inclui o arquivo real executado, conforme o formato de
 submissão; a construção do pipeline também pode ser reutilizada por importação.
 
 ```python
---8<-- "docs/projects/eda/code/eda.py"
+--8<-- "docs/project/eda/code/eda.py"
 ```
 
 ## 5 — Síntese

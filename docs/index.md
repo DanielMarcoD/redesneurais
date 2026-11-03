@@ -11,4 +11,4 @@ relatórios, códigos e figuras necessários para reproduzir cada atividade.
 - [Atividade 2 — Perceptron](exercises/perceptron/index.md)
 - [Atividade 3 — MLP](exercises/mlp/index.md)
 - [Atividade 4 — VAE](exercises/vae/index.md)
-- [Projeto — EDA Online Shoppers](projects/eda/index.md)
+- [Projeto — EDA Online Shoppers](project/eda/index.md)

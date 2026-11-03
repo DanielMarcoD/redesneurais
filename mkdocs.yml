@@ -43,4 +43,4 @@ nav:
       - MLP: exercises/mlp/index.md
       - VAE: exercises/vae/index.md
   - Projects:
-      - EDA: projects/eda/index.md
+      - EDA: project/eda/index.md

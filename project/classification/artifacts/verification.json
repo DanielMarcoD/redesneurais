@@ -1,0 +1,16 @@
+{
+  "protocol.json_byte_identical": true,
+  "frozen.json_byte_identical": true,
+  "results.json_byte_identical": true,
+  "history.csv_byte_identical": true,
+  "test_predictions.csv_byte_identical": true,
+  "eda_code_and_figures_byte_unchanged": true,
+  "clean_environment": "fresh venv; pip install -r requirements.txt; full experiment from source snapshot without caches",
+  "comparison": "Exact histories, validation search, final validation, permutation, final predictions and model metrics",
+  "final_tests_passed": 8,
+  "strict_mkdocs_build": "passed in original and fresh environments",
+  "html_figures_resolved": 7,
+  "report_sections_0_to_7": true,
+  "summary_rows": 8,
+  "presentation_update": "Original byte-identity checks refer to the experiment before the Portuguese translation and path migration. frozen-original.json retains the original manifest; model/prediction values remain unchanged."
+}

@@ -32,9 +32,6 @@ Clique nas figuras para abrir os arquivos em resolução completa.
 
 ## 0 — Proposta
 
-**Aprovação:** a equipe confirmou que o professor aprovou esta base.
-O repositório da equipe é [DanielMarcoD/redesneurais](https://github.com/DanielMarcoD/redesneurais).
-
 Usamos o [Online Shoppers Purchasing Intention Dataset da UCI](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset),
 de Sakar e Kastro (2018), DOI [10.24432/C5F88Q](https://doi.org/10.24432/C5F88Q).
 A base é pública, tabular, tem 12.330 sessões, 17 preditoras e o alvo no próprio

@@ -16,12 +16,8 @@ ai_use: "OpenAI Codex para apoio na implementação, validação e documentaçã
 Investigamos como as características de uma sessão de loja virtual se relacionam
 com a ocorrência de compra, indicada por `Revenue`. Esta entrega contém EDA e
 pré-processamento para classificação binária. Não treinamos classificadores nem
-estimamos desempenho preditivo. PCA, t-SNE e UMAP são análises exploratórias.
+estimamos desempenho preditivo.
 
-O relatório segue o [enunciado da EDA](https://insper.github.io/ann-dl/2026.2/projects/eda/)
-e o [formato de submissão](https://insper.github.io/ann-dl/2026.2/exercises/submission/).
-As tabelas foram calculadas pelo [arquivo Python executável](code/eda.py), com
-seed 42. Para reproduzir em Python 3.12, com as dependências do `requirements.txt`:
 
 ```bash
 python docs/projects/eda/code/eda.py > /tmp/eda-resultados.md

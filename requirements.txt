@@ -9,3 +9,4 @@ umap-learn==0.5.12
 torch==2.10.0
 torchvision==0.25.0
 scipy==1.18.1
+mkdocs==1.6.1

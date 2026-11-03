@@ -71,3 +71,40 @@ PYTHONPATH=docs/project/eda/code python -c "import eda; print(eda.build_preproce
 A reprodução deve usar o mesmo ambiente e versões. A importação apenas constrói
 o objeto solicitado: não carrega dados nem gera figuras. Não se promete igualdade
 binária das projeções entre plataformas ou versões distintas.
+
+## Projeto — Classificação Online Shoppers
+
+Relatório: `docs/project/classification/index.md`. O protocolo e os resultados
+numéricos estão em `artifacts/`; pesos e intermediários são regenerados em
+`.cache/classification/`, sem depender de GPU. O CSV da EDA já é versionado.
+
+Em Python 3.12, a partir da raiz de um clone limpo:
+
+```bash
+unset PYTHONPATH
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python -m pip check
+python docs/project/classification/code/train.py prepare
+python -m unittest discover -s docs/project/classification/code -p 'test_*.py'
+python docs/project/classification/code/train.py search
+python docs/project/classification/code/train.py freeze
+python docs/project/classification/code/evaluate.py run
+python docs/project/classification/code/evaluate.py render
+python -m unittest discover -s docs/project/classification/code -p 'test_*.py'
+mkdocs build --strict
+```
+
+Os comandos `prepare`, `search` e `freeze` recusam sobrescrever etapas concluídas.
+Para uma reprodução adicional, acrescente `--run-dir .cache/classification-reproduction`
+a cada comando de treino/avaliação. Essa execução não sobrescreve os artefatos
+publicados. `evaluate.py render` reconstrói gráficos usando predições salvas;
+`evaluate.py run` não repete inferência se elas já existem. Não executar novas
+buscas orientadas pelos resultados finais. `unset PYTHONPATH` evita importar
+pacotes externos do ROS presentes no ambiente original de desenvolvimento.
+
+A MLP obteve Macro-F1 de teste **0.638510 ± 0.006969**, contra **0.632041** da
+regressão logística; o ganho **0.006469** não atingiu a meta pré-registrada de 0.02.
+As evidências de reprodução estão em
+`docs/project/classification/artifacts/verification.json`.

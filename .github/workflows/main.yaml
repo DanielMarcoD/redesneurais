@@ -33,4 +33,5 @@ jobs:
           
       # deploy
       - run: |
+          mkdocs build --strict
           mkdocs gh-deploy --force

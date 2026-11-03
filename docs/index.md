@@ -12,3 +12,4 @@ relatórios, códigos e figuras necessários para reproduzir cada atividade.
 - [Atividade 3 — MLP](exercises/mlp/index.md)
 - [Atividade 4 — VAE](exercises/vae/index.md)
 - [Projeto — EDA Online Shoppers](project/eda/index.md)
+- [Projeto — Classificação Online Shoppers](project/classification/index.md)
